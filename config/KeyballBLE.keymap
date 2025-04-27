@@ -78,19 +78,19 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                     &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp EXCLAMATION   &kp AT             &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans            &trans                                                                     &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9        &kp PLUS                                                     &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6        &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp EXCLAMATION   &kp AT             &kp HASH        &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3        &kp PERIOD    &kp EQUAL                    &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans                      &trans           &trans           &lt 6 INTERNATIONAL_4  &lt 2 SPACE   &lt 3 INT_MUHENKAN           &kp BACKSPACE     &lt 1 ENTER                                                                &kp PIPE
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                       &trans  &trans           &trans  &trans       &trans
-&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &trans  &kp LA(RS(TAB))  &trans  &kp LA(TAB)  &trans
-&kp LEFT_SHIFT  &kp LG(LS(TAB))  &trans          &kp LG(TAB)      &trans   &trans      &trans  &trans  &trans           &trans  &trans       &trans
-&trans          &trans           &trans          &trans           &trans   &trans      &trans  &trans                                        &trans
+&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)            &trans                                              &trans       &trans           &trans  &trans       &trans
+&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END      &trans                  &trans         &trans       &kp LA(RS(TAB))  &trans  &kp LA(TAB)  &trans
+&kp LEFT_SHIFT  &kp LG(LS(TAB))  &trans          &kp LG(TAB)            &trans       &trans                  &trans         &trans       &trans           &trans  &trans       &trans
+&trans          &trans           &trans          &lt 6 INTERNATIONAL_4  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
