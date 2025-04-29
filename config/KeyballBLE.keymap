@@ -79,10 +79,10 @@
 
         FUNCTION {
             bindings = <
-&tog 0  &tog 1  &tog 2  &tog 3                 &tog 6                                              &kp F1       &kp F2         &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &kp CLCK               &trans       &trans                  &kp F13        &kp F6       &kp F7         &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans                 &trans       &trans                  &trans         &trans       &kp LS(LG(S))  &trans  &trans  &kp F11
-&trans  &trans  &trans  &lt 6 INTERNATIONAL_4  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                 &kp F12
+&tog 0  &tog 1  &tog 2  &tog 3                 &tog 6                                                &kp F1       &kp F2         &kp F3  &kp F4  &kp F5
+&trans  &trans  &trans  &kp CLCK               &kp LC(SPACE)  &trans                  &kp F13        &kp F6       &kp F7         &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans                 &trans         &trans                  &trans         &trans       &kp LS(LG(S))  &trans  &trans  &kp F11
+&trans  &trans  &trans  &lt 6 INTERNATIONAL_4  &lt 2 SPACE    &lt 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                 &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -99,10 +99,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)            &trans                                              &trans       &trans           &trans  &trans       &trans
-&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END      &trans                  &trans         &trans       &kp LA(RS(TAB))  &trans  &kp LA(TAB)  &trans
-&kp LEFT_SHIFT  &kp LG(LS(TAB))  &trans          &kp LG(TAB)            &trans       &trans                  &trans         &trans       &trans           &trans  &trans       &trans
-&trans          &trans           &trans          &lt 6 INTERNATIONAL_4  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                        &trans
+&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)            &trans                                              &trans       &trans  &trans  &trans  &trans
+&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END      &trans                  &trans         &trans       &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(TAB))  &kp F4          &kp LG(TAB)            &trans       &trans                  &trans         &trans       &trans  &trans  &trans  &trans
+&trans          &trans           &trans          &lt 6 INTERNATIONAL_4  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
