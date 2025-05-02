@@ -134,5 +134,14 @@
 &trans  &trans        &trans        &lt 6 INTERNATIONAL_4  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE   &lt 1 ENTER                                             &bt BT_CLR_ALL
             >;
         };
+
+        TENKEY {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp KP_NUMBER_4  &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans           &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                     &trans
+            >;
+        };
     };
 };
