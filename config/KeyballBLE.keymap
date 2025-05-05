@@ -97,7 +97,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        win_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O       &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &mkp MCLK                 &kp INT_YEN             &kp H        &kp J  &kp K      &kp L       &kp MINUS
@@ -182,6 +182,17 @@
 &trans    &trans     &trans  &trans  &trans         &trans      &trans  &trans  &kp LS(LG(KP_NUMBER_3))  &trans     &trans  &trans
 &trans    &trans     &trans  &trans  &trans         &trans      &trans  &trans                                              &trans
             >;
+        };
+
+        ios_layer {
+            bindings = <
+&kp Q             &kp W             &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O       &kp P
+&kp A             &kp S             &kp D         &kp F                        &kp G        &mkp MCLK                 &kp INT_YEN             &kp H        &kp J  &kp K      &kp L       &kp MINUS
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                        &kp B        &kp COMMA                 &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
+&kp LEFT_GUI      &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 TAB      &mt LEFT_GUI BACKSPACE  &lt 2 ENTER                                &mt LEFT_CONTROL DEL
+            >;
+
+            sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
         };
     };
 };
