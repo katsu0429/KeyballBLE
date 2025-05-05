@@ -42,7 +42,7 @@
             label = "TO_LAYER_0";
         };
         macro_left_click: macro_left_click {
-            compatible = "zmk,behavior-macrol";
+            compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
                 <&macro_press>,
