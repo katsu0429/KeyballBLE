@@ -99,10 +99,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)            &trans                                              &trans       &kp LC(Y)  &kp LC(Z)  &trans  &trans
-&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END      &trans                  &trans         &kp LC(X)    &kp LC(C)  &kp LC(V)  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(TAB))  &kp F4          &kp LG(TAB)            &trans       &trans                  &trans         &trans       &trans     &trans     &trans  &trans
-&trans          &trans           &trans          &lt 6 INTERNATIONAL_4  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                &trans
+&kp ESCAPE      &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                       &trans     &kp LC(Y)  &kp LC(Z)  &trans  &trans
+&kp HOME        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans      &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(TAB))  &kp F4          &kp LG(TAB)      &trans   &trans      &trans  &trans     &trans     &trans     &trans  &trans
+&trans          &trans           &trans          &trans           &trans   &trans      &trans  &trans                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -128,10 +128,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans                 &trans                                               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans                 &trans       &trans                  &studio_unlock  &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3           &kt KP_N4    &trans                  &bootloader     &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &lt 6 INTERNATIONAL_4  &lt 2 SPACE  &lt 3 INT_MUHENKAN      &kp BACKSPACE   &lt 1 ENTER                                             &bt BT_CLR_ALL
+&trans  &trans        &trans        &trans        &trans                                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans     &trans      &studio_unlock  &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kt KP_N4  &trans      &bootloader     &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans     &trans      &trans          &trans                                                  &bt BT_CLR_ALL
             >;
         };
 
