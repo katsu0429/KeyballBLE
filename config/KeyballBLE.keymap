@@ -177,10 +177,10 @@
 
         ios_shortcut {
             bindings = <
-&trans  &trans     &trans  &trans  &trans                      &trans  &trans     &trans     &trans  &kp LA(R)
-&trans  &kp LA(W)  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(C)  &kp LA(V)  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans    &trans     &trans  &trans  &trans                             &trans  &trans                   &trans     &trans  &kp LA(R)
+&kp CAPS  &kp LA(W)  &trans  &trans  &kp LC(SPACE)  &trans      &trans  &trans  &kp LA(C)                &kp LA(V)  &trans  &trans
+&trans    &trans     &trans  &trans  &trans         &trans      &trans  &trans  &kp LA(LS(KP_NUMBER_3))  &trans     &trans  &trans
+&trans    &trans     &trans  &trans  &trans         &trans      &trans  &trans                                              &trans
             >;
         };
     };
