@@ -267,10 +267,10 @@
 
         ios_shortcut {
             bindings = <
-&trans    &trans     &trans  &tog 10  &tog 8                             &trans  &trans                    &trans        &trans     &kp LG(R)
-&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LC(K)                 &kp LC(SEMI)  &kp LC(L)  &kp LC(SQT)
-&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(LC(NUMBER_3)))  &trans        &trans     &trans
-&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                                     &trans
+&trans    &trans     &trans  &tog 10  &tog 8                             &trans  &trans                &trans                &trans     &kp LG(R)
+&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LC(K)             &kp LC(SEMI)          &kp LC(L)  &kp LC(SQT)
+&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &trans     &trans
+&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
