@@ -227,7 +227,7 @@
         ios_shortcut {
             bindings = <
 &trans    &trans     &trans  &tog 10  &tog 8                             &trans  &trans                   &trans        &trans     &kp LG(R)
-&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LC(K)                &kp LC(SEMI)  &kp LC(L)  &kp LC(COLON)
+&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LC(K)                &kp LC(SEMI)  &kp LC(L)  &kp SQT
 &trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(KP_NUMBER_3))  &trans        &trans     &trans
 &trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                                    &trans
             >;
