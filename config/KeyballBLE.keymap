@@ -162,6 +162,15 @@
             display-name = "Toggle Layer Off";
             toggle-mode = "off";
         };
+
+        lt_to_layer_1: lt_to_layer_1 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT_TO_LAYER_1";
+            bindings = <&mo>, <&to_layer_1>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -183,7 +192,7 @@
 &kp Q             &kp W             &kp E         &kp R                        &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O       &kp P
 &kp A             &kp S             &kp D         &kp F                        &kp G        &mkp MCLK                  &kp INT_YEN             &kp H        &kp J  &kp K      &kp L       &kp MINUS
 &mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                        &kp B        &kp COMMA                  &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
-&kp LEFT_GUI      &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_0 7 INT_HENKAN  &lt 9 SPACE  &lt_to_layer_0 10 TAB      &mt LEFT_GUI BACKSPACE  &lt 3 ENTER                                &mt LEFT_CONTROL DEL
+&kp LEFT_GUI      &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_1 7 INT_HENKAN  &lt 9 SPACE  &lt_to_layer_1 10 TAB      &mt LEFT_GUI BACKSPACE  &lt 3 ENTER                                &mt LEFT_CONTROL DEL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -258,10 +267,10 @@
 
         ios_shortcut {
             bindings = <
-&trans    &trans     &trans  &tog 10  &tog 8                             &trans  &trans                   &trans        &trans     &kp LG(R)
-&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LC(K)                &kp LC(SEMI)  &kp LC(L)  &kp LC(SQT)
-&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(KP_NUMBER_3))  &trans        &trans     &trans
-&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                                    &trans
+&trans    &trans     &trans  &tog 10  &tog 8                             &trans  &trans                    &trans        &trans     &kp LG(R)
+&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LC(K)                 &kp LC(SEMI)  &kp LC(L)  &kp LC(SQT)
+&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(LC(NUMBER_3)))  &trans        &trans     &trans
+&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
