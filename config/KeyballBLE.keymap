@@ -58,6 +58,44 @@
 
             label = "MACRO_LEFT_CLICK";
         };
+
+        bt0: bt0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&tog_off 1>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 0>,
+                <&macro_wait_time 500>,
+                <&tog_on 1>;
+
+            label = "BT0";
+        };
+
+        bt1: bt1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&tog_off 1>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 1>,
+                <&macro_wait_time 500>,
+                <&tog_on 1>;
+
+            label = "BT1";
+        };
+
+        bt2: bt2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&tog_off 1>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 2>,
+                <&macro_wait_time 500>;
+
+            label = "BT2";
+        };
     };
 
     behaviors {
