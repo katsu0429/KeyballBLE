@@ -231,6 +231,8 @@
 &trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(KP_NUMBER_3))  &trans     &trans  &trans
 &trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                              &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         ios_ARROW {
