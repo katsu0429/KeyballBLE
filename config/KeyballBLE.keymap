@@ -226,10 +226,10 @@
 
         ios_shortcut {
             bindings = <
-&trans    &trans     &trans  &tog 10  &tog 8                             &trans  &trans                   &trans     &trans  &kp LG(R)
-&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LG(C)                &kp LG(V)  &trans  &trans
-&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(KP_NUMBER_3))  &trans     &trans  &trans
-&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                              &trans
+&trans    &trans     &trans  &tog 10  &tog 8                             &trans  &trans                   &trans     &trans         &kp LG(R)
+&kp CAPS  &kp LG(W)  &trans  &trans   &kp LC(SPACE)  &trans      &trans  &trans  &kp LC(SEMICOLON)        &kp LC(K)  &kp LC(COLON)  &kp LC(L)
+&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans  &kp LS(LG(KP_NUMBER_3))  &trans     &trans         &trans
+&trans    &trans     &trans  &trans   &trans         &trans      &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -237,10 +237,10 @@
 
         ios_ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))       &kp UP_ARROW    &kp LC(TAB)                &trans                       &trans     &kp LG(LS(Z))  &kp LG(Z)  &trans  &trans
-&kp HOME        &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW            &kp END  &trans      &trans  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LEFT_BRACKET)  &trans          &kp LG(LC(RIGHT_BRACKET))  &trans   &trans      &trans  &trans     &trans         &trans     &trans  &trans
-&trans          &trans                &trans          &trans                     &trans   &trans      &trans  &trans                                       &trans
+&kp ESCAPE      &kp LC(LS(TAB))       &kp UP_ARROW    &kp LC(TAB)            &trans                       &trans     &kp LG(LS(Z))  &kp LG(Z)  &trans  &trans
+&kp HOME        &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW        &kp END  &trans      &trans  &kp LG(X)  &kp LG(C)      &kp LG(V)  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LEFT_BRACKET)  &trans          &kp LG(RIGHT_BRACKET)  &trans   &trans      &trans  &trans     &trans         &trans     &trans  &trans
+&trans          &trans                &trans          &trans                 &trans   &trans      &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
