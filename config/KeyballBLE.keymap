@@ -178,10 +178,10 @@
 
         win_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O       &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &mkp MCLK                 &kp INT_YEN             &kp H        &kp J  &kp K      &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &lt 8 COMMA               &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 TAB      &mt LEFT_ALT BACKSPACE  &lt 3 ENTER                                &mt LEFT_CONTROL DEL
+&kp Q             &kp W         &kp E         &kp R                          &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O       &kp P
+&kp A             &kp S         &kp D         &kp F                          &kp G        &mkp MCLK                 &kp INT_YEN             &kp H        &kp J  &kp K      &kp L       &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &lt 8 COMMA               &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 LC(LEFT_ALT)  &lt 2 SPACE  &lt_to_layer_0 6 TAB      &mt LEFT_ALT BACKSPACE  &lt 3 ENTER                                &mt LEFT_CONTROL DEL
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -239,7 +239,7 @@
         ARROW {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans                       &kp LC(D)     &kp LC(Y)         &kp LC(Z)     &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))
-&kp HOME        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END  &trans      &trans  &kp LC(X)     &kp LC(C)         &kp LC(V)     &trans            &trans
+&kp HOME        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END  &trans      &trans  &kp LC(X)     &kp LC(C)         &kp LC(V)     &kp LC(LS(V))     &trans
 &kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &kp F4          &kp LA(RIGHT_ARROW)  &trans   &trans      &trans  &kp RG(LEFT)  &kp LG(UP_ARROW)  &kp LG(DOWN)  &kp LG(RIGHT)     &trans
 &trans          &trans              &trans          &trans               &trans   &trans      &trans  &trans                                                          &trans
             >;
