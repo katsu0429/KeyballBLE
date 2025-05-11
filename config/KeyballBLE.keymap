@@ -180,7 +180,7 @@
             bindings = <
 &lt 8 Q           &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O       &kp P
 &kp A             &kp S         &kp D         &kp F                      &kp G        &mkp MCLK                 &kp INT_YEN             &kp H        &kp J  &kp K      &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &lt 8 COMMA               &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &kp DOWN                  &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 6 TAB      &mt LEFT_ALT BACKSPACE  &lt 3 ENTER                                &mt LEFT_CONTROL DEL
             >;
 
@@ -191,7 +191,7 @@
             bindings = <
 &lt 8 Q           &kp W             &kp E         &kp R                      &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O       &kp P
 &kp A             &kp S             &kp D         &kp F                      &kp G        &mkp MCLK                  &kp INT_YEN             &kp H        &kp J  &kp K      &kp L       &kp MINUS
-&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                      &kp B        &lt 8 COMMA                &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                      &kp B        &kp DOWN_ARROW             &kp PERIOD              &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
 &kp LEFT_GUI      &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_1 7 LEFT_ALT  &lt 9 SPACE  &lt_to_layer_1 10 TAB      &mt LEFT_GUI BACKSPACE  &lt 3 ENTER                                &mt LEFT_CONTROL DEL
             >;
 
