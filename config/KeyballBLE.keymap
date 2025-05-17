@@ -34,6 +34,11 @@
             bindings = <&kp GT>;
             key-positions = <22 32>;
         };
+
+        change_leftdevice {
+            bindings = <&tog_on 11>;
+            key-positions = <34 35>;
+        };
     };
 
     macros {
@@ -289,10 +294,10 @@
 
         left_device {
             bindings = <
-&trans   &trans          &kp UP_ARROW    &trans     &trans                            &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans          &kp LS(SPACE)   &trans     &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans          &trans          &trans     &trans  &kp LEFT_ALT      &trans  &trans                          &trans
+&trans   &trans          &kp UP_ARROW    &trans     &tog_off 11                            &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans          &kp LS(SPACE)   &trans     &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans          &trans          &trans     &kp ENTER    &kp LEFT_ALT      &trans  &trans                          &trans
             >;
         };
     };
