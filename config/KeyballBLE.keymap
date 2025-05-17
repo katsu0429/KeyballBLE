@@ -294,7 +294,7 @@
 
         left_device {
             bindings = <
-&trans   &trans          &kp UP_ARROW    &trans     &tog_off 11                            &trans  &trans  &trans  &trans  &trans
+&kp F5   &kp F4          &kp UP_ARROW    &trans     &tog_off 11                            &trans  &trans  &trans  &trans  &trans
 &kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans          &kp LS(SPACE)   &trans     &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans          &trans          &trans     &kp ENTER    &kp LEFT_ALT      &trans  &trans                          &trans
