@@ -294,10 +294,10 @@
 
         left_device {
             bindings = <
-&kp F5   &kp F4          &kp UP_ARROW    &trans     &tog_off 11                            &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans          &kp LS(SPACE)   &trans     &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans          &trans          &trans     &kp ENTER    &kp LEFT_ALT      &trans  &trans                          &trans
+&kp F5   &kp F4          &kp UP_ARROW    &trans     &tog_off 11                             &trans    &trans     &trans     &trans     &trans
+&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans       &trans             &trans  &mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5
+&trans   &trans          &kp LS(SPACE)   &kp LC(C)  &kp LC(V)    &kp LS(LC(V))      &trans  &trans    &trans     &trans     &trans     &trans
+&trans   &trans          &trans          &trans     &kp ENTER    &kp LEFT_ALT       &trans  &trans                                     &trans
             >;
         };
     };
