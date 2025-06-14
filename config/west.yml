@@ -4,8 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: Dist16384
       url-base: https://github.com/Dist16384
-    - name: kot149
-      url-base: https://github.com/kot149
+
 
   projects:
     - name: zmk
@@ -17,9 +16,7 @@ manifest:
       remote: Dist16384
       revision: main
 
-    - name: zmk-layout-shift
-      remote: kot149
-      revision: v1
+
 
   self:
     path: config
