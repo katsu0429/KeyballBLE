@@ -2,15 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: kot149
-      url-base: https://github.com/kot149
+    - name: Dist16384
+      url-base: https://github.com/Dist16384
+
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-layout-shift
-      remote: kot149
-      revision: v1
+
+    - name: zmk-pmw3610-driver
+      remote: Dist16384
+      revision: main
+
+
   self:
     path: config
