@@ -1,0 +1,3 @@
+config ZMK_LAYOUT_SHIFT
+    bool "Enable layout shift support"
+    default n
