@@ -11,6 +11,14 @@
 #define SCROLL 5
 #define NUM 3
 
+/ {
+    layout_shift {
+        compatible = "zmk,layout-shift";
+        status = "okay";
+    };
+};
+
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <300>;
