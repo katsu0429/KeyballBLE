@@ -2,27 +2,15 @@
 #include <physical_layouts.dtsi>
 #include <layout_shift.dtsi>
 
-/ {
-    keymap {
-        compatible = "zmk,keymap";
 
-        default_layer {
-            bindings = <
-                &kpls EQUAL    // Will output = normally, but _ when layout shift is active for JIS layout
-                &tog_ls        // Toggle layout shift on/off
-                &tog_ls_on     // Turn layout shift on
-                &tog_ls_off    // Turn layout shift off
-            >;
-        };
-    };
+
+
+/ {
+chosen {
+    zmk,physical-layout = &roba_physical_layout;
+    zmk,matrix-transform = &layout_shift_transform;
 };
 
-
-
-/ {
-    chosen {
-        zmk,physical-layout = &roba_physical_layout;
-    };
     
     roba_physical_layout: roba_physical_layout {
         compatible = "zmk,physical-layout";
