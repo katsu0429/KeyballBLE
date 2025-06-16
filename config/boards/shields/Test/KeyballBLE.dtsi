@@ -1,15 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
-#include <layout_shift.dtsi>
 
 
 
 
 / {
-chosen {
-    zmk,physical-layout = &roba_physical_layout;
-    zmk,matrix-transform = &layout_shift_transform;
-};
+    chosen {
+        zmk,physical-layout = &roba_physical_layout;
+    };
 
     
     roba_physical_layout: roba_physical_layout {
