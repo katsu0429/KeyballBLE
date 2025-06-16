@@ -1,13 +1,10 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 120    // default: 10
 
+#include <layout_shift.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-
-#include <layout_shift.dtsi>
-
-
 
 #define MOUSE 4
 #define SCROLL 5
@@ -19,7 +16,6 @@
         status = "okay";
     };
 };
-
 
 &mt {
     flavor = "balanced";
@@ -336,10 +332,10 @@
 
         left_device {
             bindings = <
-&kp F5   &kp F4          &kp UP_ARROW    &trans     &tog_off 11                             &trans    &trans     &trans     &mkp RCLK  &kp F5
-&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans       &trans             &trans  &mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5
-&trans   &trans          &kp LS(SPACE)   &kp LC(C)  &kp LC(V)    &kp LS(LC(V))      &trans  &trans    &trans     &trans     &trans     &trans
-&trans   &trans          &trans          &trans     &kp ENTER    &kp LEFT_ALT       &trans  &trans                                     &trans
+&kp F5   &kp F4          &kp UP_ARROW    &trans     &tog_off 11                             &trans    &trans             &trans               &macro_right_click  &kp F5
+&kp TAB  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans       &trans             &trans  &mkp MB4  &macro_left_click  &macro_middle_click  &macro_right_click  &mkp MB5
+&trans   &trans          &kp LS(SPACE)   &kp LC(C)  &kp LC(V)    &kp LS(LC(V))      &trans  &trans    &trans             &trans               &trans              &trans
+&trans   &trans          &trans          &trans     &kp ENTER    &kp LEFT_ALT       &trans  &trans                                                                &trans
             >;
         };
     };
