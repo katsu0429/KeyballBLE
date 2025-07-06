@@ -254,10 +254,10 @@
 
         NUM {
             bindings = <
-&kp MINUS     &kp LC(W)        &trans        &kp LC(R)         &kp LA(DOWN)                                                  &kp CARET         &kp AMPERSAND      &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LC(A)     &kp LC(P)        &kp LC(H)     &kp LC(F)         &kp LG(E)      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp EXCLAMATION   &kp AT             &kp HASH   &kp QUESTION          &kp PERCENT
-&kp LCTRL     &kp LS(LEFT)     &kp LS(DOWN)  &kp LS(UP_ARROW)  &kp LS(RIGHT)  &kp DOLLAR                   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI   &kp COLON             &kp BACKSLASH
-&kp LA(DOWN)  &kp KP_NUMBER_0  &kp PERIOD    &trans            &trans         &trans                       &trans            &trans                                                                &kp PIPE
+&kp MINUS     &kp LC(W)        &kp LS(LA(F1))  &kp LC(R)         &kp LA(DOWN)                                                  &kp CARET         &kp AMPERSAND      &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LC(A)     &kp LC(P)        &kp LC(H)       &kp LC(F)         &kp LG(E)      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp EXCLAMATION   &kp AT             &kp HASH   &kp QUESTION          &kp PERCENT
+&kp LCTRL     &kp LS(LEFT)     &kp LS(DOWN)    &kp LS(UP_ARROW)  &kp LS(RIGHT)  &kp DOLLAR                   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI   &kp COLON             &kp BACKSLASH
+&kp LA(DOWN)  &kp KP_NUMBER_0  &kp PERIOD      &trans            &trans         &trans                       &trans            &trans                                                                &kp PIPE
             >;
         };
 
