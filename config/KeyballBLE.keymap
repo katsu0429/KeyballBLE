@@ -257,10 +257,10 @@
 
         NUM {
             bindings = <
-&kp MINUS     &kp LC(W)        &kp LS(LA(F1))  &kp LC(R)         &kp LA(DOWN)                                                  &kp JP_CARET         &kp AMPERSAND      &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LC(A)     &kp LC(P)        &kp LC(H)       &kp LC(F)         &kp LG(E)      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp EXCLAMATION   &kp AT             &kp HASH   &kp QUESTION          &kp PERCENT
-&kp LCTRL     &kp LS(LEFT)     &kp LS(DOWN)    &kp LS(UP_ARROW)  &kp LS(RIGHT)  &kp DOLLAR                   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMI   &kp COLON             &kp BACKSLASH
-&kp LA(DOWN)  &kp KP_NUMBER_0  &kp PERIOD      &trans            &trans         &trans                       &trans            &trans                                                                &kp PIPE
+&kp MINUS     &kp LC(W)        &kp LS(LA(F1))  &kp LC(R)         &kp LA(DOWN)                                                  &kp JP_CARET         &kp JP_AMPS      &kp JP_TILDE  &kp JP_LPAR  &kp JP_RPAR
+&kp LC(A)     &kp LC(P)        &kp LC(H)       &kp LC(F)         &kp LG(E)      &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDER    &kp JP_EXCL   &kp JP_AT             &kp JP_HASH   &kp JP_QMARK          &kp JP_PRCNT
+&kp LCTRL     &kp LS(LEFT)     &kp LS(DOWN)    &kp LS(UP_ARROW)  &kp LS(RIGHT)  &kp DOLLAR                   &kp JP_SQT  &kp JP_LBKT  &kp  JP_RBKT &kp JP_SEMI   &kp JP_COLON             &kp JP_BSLH
+&kp LA(DOWN)  &kp KP_NUMBER_0  &kp PERIOD      &trans            &trans         &trans                       &trans            &trans                                                                &kp JP_PIPE
             >;
         };
 
@@ -304,10 +304,10 @@
 
         TENKEY {
             bindings = <
-&kp ESC    &trans    &kp UP_ARROW    &trans     &tog 8                                 &kp COMMA        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH
-&kp SLASH  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp EQUAL  &trans      &kp KP_NUMLOCK  &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
-&kp F1     &kp F4    &kp F5          &kp F9     &kp F10    &trans      &kp EQUAL       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS
-&trans     &kp F2    &kp F8          &trans     &trans     &trans      &trans          &trans                                                              &kp PLUS
+&kp ESC    &trans    &kp UP_ARROW    &trans     &tog 8                                 &kp COMMA        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp JP_SLASH
+&kp JP_SLASH  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp EQUAL  &trans      &kp KP_NUMLOCK  &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp JP_ASTERISK
+&kp F1     &kp F4    &kp F5          &kp F9     &kp F10    &trans      &kp EQUAL       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_MINUS
+&trans     &kp F2    &kp F8          &trans     &trans     &trans      &trans          &trans                                                              &kp JP_PLUS
             >;
         };
 
@@ -350,6 +350,16 @@
 &kp LA(DOWN)  &kp KP_NUMBER_0  &kp PERIOD      &trans            &trans         &trans                       &trans            &trans                                                                &kp PIPE
             >;
         };
+
+        TENKEY_IOS {
+            bindings = <
+&kp ESC    &trans    &kp UP_ARROW    &trans     &tog 8                                 &kp COMMA        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH
+&kp SLASH  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp EQUAL  &trans      &kp KP_NUMLOCK  &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
+&kp F1     &kp F4    &kp F5          &kp F9     &kp F10    &trans      &kp EQUAL       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS
+&trans     &kp F2    &kp F8          &trans     &trans     &trans      &trans          &trans                                                              &kp PLUS
+            >;
+        };
+
 
 
     };
