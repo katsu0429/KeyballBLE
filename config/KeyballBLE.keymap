@@ -305,8 +305,8 @@
         TENKEY {
             bindings = <
 &kp ESC       &trans    &kp UP_ARROW    &trans     &tog 8                                 &kp COMMA        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp JP_SLASH
-&kp JP_SLASH  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp EQUAL  &trans      &kp KP_NUMLOCK  &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp JP_ASTRK
-&kp F1        &kp F4    &kp F5          &kp F9     &kp F10    &trans      &kp EQUAL       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_MINUS
+&kp JP_SLASH  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp JP_EQUAL  &trans      &kp KP_NUMLOCK  &kp KP_DOT       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp JP_ASTRK
+&kp F1        &kp F4    &kp F5          &kp F9     &kp F10    &trans      &kp JP_EQUAL       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_MINUS
 &trans        &kp F2    &kp F8          &trans     &trans     &trans      &trans          &trans                                                              &kp JP_PLUS
             >;
         };
