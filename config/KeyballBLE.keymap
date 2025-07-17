@@ -92,6 +92,76 @@
             layers = <0 1 4>;
             require-prior-idle-ms = <400>;
         };
+
+        Ctrl_T {
+            bindings = <&kp LC(T)>;
+            key-positions = <3 4>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_Z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <23 22>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_X {
+            bindings = <&kp LC(X)>;
+            key-positions = <23 24>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_C {
+            bindings = <&kp LC(C)>;
+            key-positions = <24 25>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_V {
+            bindings = <&kp LC(V)>;
+            key-positions = <26 25>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_N {
+            bindings = <&kp LC(N)>;
+            key-positions = <29 30>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_S {
+            bindings = <&kp LC(S)>;
+            key-positions = <11 12>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_F {
+            bindings = <&kp LC(F)>;
+            key-positions = <12 13>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_H {
+            bindings = <&kp LC(H)>;
+            key-positions = <17 18>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_P {
+            bindings = <&kp LC(P)>;
+            key-positions = <8 9>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
     };
 
     macros {
