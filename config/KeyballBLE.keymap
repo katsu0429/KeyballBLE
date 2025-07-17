@@ -493,5 +493,50 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
+
+        ALT_TAB {
+            bindings = <
+&kp TAB      &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp TAB
+&kp LS(TAB)  &trans  &kp UP  &trans  &trans  &trans      &trans  &trans  &trans  &kp UP  &trans  &kp LS(TAB)
+&trans       &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans      &trans  &trans  &kp LEFT      &kp DOWN      &kp RIGHT  &trans
+&trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        CTRL_TAB {
+            bindings = <
+&kp LS(TAB)  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp LS(TAB)
+&kp TAB      &trans  &kp UP  &trans  &trans  &trans      &trans  &trans  &trans  &kp UP  &trans  &kp TAB
+&kp LS(TAB)  &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans      &trans  &trans  &kp LEFT      &kp DOWN      &kp RIGHT  &kp LS(TAB)
+&trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        CTRL_ALT_TAB_TB {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        ALT_TAB_TB {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        CTRL_TAB_TB {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
     };
 };
