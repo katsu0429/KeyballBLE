@@ -75,21 +75,21 @@
         Ctrl_A {
             bindings = <&kp LC(A)>;
             key-positions = <10 11>;
-            layers = <0 1>;
+            layers = <0 1 4>;
             require-prior-idle-ms = <400>;
         };
 
         Ctrl_W {
             bindings = <&kp LC(W)>;
             key-positions = <1 2>;
-            layers = <0 1>;
+            layers = <0 1 4>;
             require-prior-idle-ms = <400>;
         };
 
         Ctrl_R {
             bindings = <&kp LC(R)>;
             key-positions = <2 3>;
-            layers = <0 1>;
+            layers = <0 1 4>;
             require-prior-idle-ms = <400>;
         };
     };
