@@ -162,6 +162,13 @@
             require-prior-idle-ms = <400>;
             layers = <0 1 4>;
         };
+
+        Ctrl_SHIFT_V {
+            bindings = <&kp LC(LS(V))>;
+            key-positions = <26 27>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
     };
 
     macros {
