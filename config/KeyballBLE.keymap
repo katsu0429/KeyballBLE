@@ -27,6 +27,15 @@
 
 &sl { release-after-ms = <180>; };
 
+    layer_listeners {
+        compatible = "zmk,layer-listeners";
+
+        release_alt {
+            layers = <ALT_TAB ALT_TAB_TB>;
+            bindings = <&kt_on LEFT_ALT &kt_off LEFT_ALT>;
+        };
+
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -297,6 +306,15 @@
 
             label = "MACRO_MIDDLE_CLICK";
         };
+
+        kp_to: kp_to {
+            compatible = "zmk,behavior-macro-two-param";
+            wait-ms = <0>;
+            tap-ms = <0>;
+            #binding-cells = <2>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &to MACRO_PLACEHOLDER>;
+        };
+
     };
 
     behaviors {
