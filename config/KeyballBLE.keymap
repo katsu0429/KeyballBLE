@@ -32,7 +32,7 @@
         compatible = "zmk,combos";
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp JP_DQT>;
             key-positions = <20 21>;
         };
 
@@ -52,7 +52,7 @@
         };
 
         EQ {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp JP_EQUAL>;
             key-positions = <0 1>;
             layers = <8>;
             require-prior-idle-ms = <400>;
