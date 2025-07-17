@@ -43,7 +43,7 @@
 
         EQ {
             bindings = <&kp JP_EQUAL>;
-            key-positions = <0 1>;
+            key-positions = <8 9>;
             layers = <8>;
             require-prior-idle-ms = <400>;
         };
