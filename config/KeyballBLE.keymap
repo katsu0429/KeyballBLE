@@ -36,16 +36,6 @@
             key-positions = <20 21>;
         };
 
-        LessThan {
-            bindings = <&kp COMMA>;
-            key-positions = <22 31>;
-        };
-
-        GreaterThan {
-            bindings = <&kp PERIOD>;
-            key-positions = <22 32>;
-        };
-
         change_leftdevice {
             bindings = <&tog_on 11>;
             key-positions = <34 35>;
@@ -144,7 +134,7 @@
 
         Ctrl_F {
             bindings = <&kp LC(F)>;
-            key-positions = <12 13>;
+            key-positions = <13 14>;
             require-prior-idle-ms = <400>;
             layers = <0 1 4>;
         };
@@ -166,6 +156,20 @@
         Ctrl_SHIFT_V {
             bindings = <&kp LC(LS(V))>;
             key-positions = <26 27>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_D {
+            bindings = <&kp LC(D)>;
+            key-positions = <12 13>;
+            require-prior-idle-ms = <400>;
+            layers = <0 1 4>;
+        };
+
+        Ctrl_Y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <5 6>;
             require-prior-idle-ms = <400>;
             layers = <0 1 4>;
         };
