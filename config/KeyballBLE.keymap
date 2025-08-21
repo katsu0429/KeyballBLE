@@ -518,5 +518,14 @@
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
+
+        MOUSE_TEMP{
+            bindings = <
+&trans    &trans             &kp LCTRL            &kp LEFT_SHIFT      &trans                           &trans    &trans             &trans               &macro_right_click  &kp F5
+&mkp MB4  &macro_left_click  &macro_middle_click  &macro_right_click  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &macro_left_click  &macro_middle_click  &macro_right_click  &mkp MB5
+&trans    &trans             &trans               &trans              &trans    &mkp RCLK      &trans  &trans    &trans             &trans               &trans              &trans
+&trans    &trans             &trans               &trans              &trans    &trans         &trans  &trans                                                                &trans
+            >;
+        };
     };
 };
