@@ -372,7 +372,7 @@
 
         win_layer {
             bindings = <
-&lt 8 Q           &lt 11 W      &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O       &kp P
+&lt 8 Q           &lt 4 W       &kp E         &kp R                      &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O       &kp P
 &kp A             &kp S         &kp D         &kp F                      &kp G        &mkp MCLK                 &kp LC(PAGE_UP)         &kp H        &kp J  &kp K      &kp L       &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &trans                    &kp LC(PAGE_DOWN)       &kp N        &kp M  &kp COMMA  &kp PERIOD  &mt LEFT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 6 TAB      &mt LEFT_ALT BACKSPACE  &lt 3 ENTER                                &mt LEFT_CONTROL DEL
@@ -414,7 +414,7 @@
 
         MOUSE {
             bindings = <
-&trans    &trans             &trans               &trans              &trans                           &trans    &trans             &trans               &macro_right_click  &kp F5
+&trans    &trans             &kp LCTRL            &kp LEFT_SHIFT      &trans                           &trans    &trans             &trans               &macro_right_click  &kp F5
 &mkp MB4  &macro_left_click  &macro_middle_click  &macro_right_click  &mkp MB5  &mkp LCLK      &trans  &mkp MB4  &macro_left_click  &macro_middle_click  &macro_right_click  &mkp MB5
 &trans    &trans             &trans               &trans              &trans    &mkp RCLK      &trans  &trans    &trans             &trans               &trans              &trans
 &trans    &trans             &trans               &trans              &trans    &trans         &trans  &trans                                                                &trans
